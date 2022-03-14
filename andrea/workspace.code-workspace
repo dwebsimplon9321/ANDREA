@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../examen-frontend"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../projet-filrouge"
+		},
+		{
+			"path": "../portefolio"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "andrea"
+	}
+}

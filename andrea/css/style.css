@@ -1,0 +1,167 @@
+/*NAV-BAR*/
+nav.row {
+	display: flex;
+}
+header nav.row div a:hover ,header nav.row div a {
+	color: black;
+	text-decoration: none;
+}
+nav div a div {
+	margin-top: 10px;
+}
+nav div a div img{
+	height: 60px;
+	margin-right: 15px;
+	align-items: center;
+}
+nav div a div p {
+    font-weight: bold;
+	font-size: small;
+	margin: 0px;
+}
+nav div a div span {
+    color: grey;
+	font-size: 10px;
+}
+
+
+/* Link-barre*/
+nav div.link {
+	display: flex;
+}
+nav div.link a{
+	font-size: 12px;
+	font-weight: bold;
+}
+nav div.col-2 {
+	width: 100px;
+}
+
+/* BUTTON */
+.button-circle {
+	border-radius: 10px;
+}
+.button-circle-white {
+	border-radius: 15px;
+	background-color: white;
+	color: grey;
+	border: solid 1px grey;
+	padding-left: 15px;
+	padding-right: 15px
+}
+.button-circle-black {
+	border-radius: 15px;
+	background-color: white;
+	color: black;
+	border: solid 1px black;
+	padding-left: 15px;
+	padding-right: 15px
+}
+.button-circle-dark {
+	border-radius: 15px;
+	background-color: black;
+	color: white;
+	border: solid 1px black;
+	padding-left: 15px;
+	padding-right: 15px
+}
+.button-circle-grey {
+	border-radius: 15px;
+	background-color: white;
+	color: grey;
+	border: solid 1px grey;
+	padding-left: 15px;
+	padding-right: 15px
+}
+.button-circle-grey-dark {
+	border-radius: 15px;
+	background-color: black;
+	color: grey;
+	border: solid 1px grey;
+	padding-left: 15px;
+	padding-right: 15px
+}
+/* LEWIS */
+main .countainer h1{
+	padding-top: 100px;
+}
+main .countainer .row .col-3 h1 span:nth-child(1){
+font-size: small !important;
+}
+main .countainer .row .col-3 h1 span:nth-child(1){
+	font-size: 14px;
+}
+main .countainer .row .col-5 ul.icone{
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-left: 0%;
+}
+main .countainer .row .col-5 ul.icone li{
+	margin-right: 10px;
+}
+main .countainer .row .col-5 ul.icone li a img{
+	width: 30px;
+}
+	/* Supperposition */
+main .countainer .row .col-7 img{
+display: flex;
+}
+main .countainer .row .col-7 img:nth-child(1){
+	position: absolute;
+	z-index: 1;
+	margin-left: 250px;
+}
+main .countainer .row .col-7 img:nth-child(2){
+	position: relative;
+	z-index: 0;
+	height: auto;
+	margin-left: 180px;
+}
+
+/* Grille Image */
+main .countainer .row .col-4 .link-img{
+padding: 30px;
+}
+/* ABOUT */
+
+/* BARRE Horizontal*/
+main .countainer .box-image .col-4 img{
+	padding: 10px;
+	
+}
+
+/*  READ ME*/
+main .countainer .box-image .col-4 
+
+
+
+/* FOOTER */
+footer.row div {
+	background-color: black;
+	display: flex;
+}
+footer.row div img {
+	padding: 10px;
+}
+footer.row div a {
+	color: gray;
+	text-align: center;
+	margin: 10px;
+}
+footer.row div button{
+	margin:  10px;
+}
+
+/* GENERAL */
+ul {
+	list-style: none;
+}
+.grey {
+	color: grey;
+}
+.carre{
+	width:80px;
+	height:80px;
+	background:#575757;
+}

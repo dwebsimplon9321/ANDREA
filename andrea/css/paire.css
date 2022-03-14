@@ -1,0 +1,57 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.grille {
+    background: rgb(195, 195, 195);
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+div.carte {
+    width: 223px;
+    height: 333px;
+    margin-top: 0 40px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    background-color: transparent;
+    perspective: 1000px;
+}
+div.double-face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+div.face, div.verso {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    border-radius: 20px;
+    width: 223px;
+    height: 333px;
+
+}
+div.face {
+    background-color: #333;
+    transform: rotateY(180deg);
+}
+div.verso {
+    position: absolute;
+    font-size: 2.5em;
+    text-align: center;
+    background-color: #333;
+    padding-top: 150px;
+}
+
+div.face img {
+    width: 223px;
+}
+.active {
+    transform: rotateY(180deg);
+}

@@ -1,0 +1,120 @@
+.me {
+    width: 550px;
+}
+body {
+    font-family: 'Roboto',sans-serif;
+}
+h2 {
+    font-size: 1.5em;
+}
+.nav-link {
+    color: black !important;
+}
+
+/* hello */ 
+
+.hello {
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+.moi{
+    font-size: 2em;
+}
+.moipj{
+    font-size: 16px;
+}
+
+.moibt a {
+    display: block;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    width: 200px;
+    text-decoration: none;
+    text-align: center;
+
+}
+h3 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+h4 {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.icone {
+    width: 40px;
+}
+.cpte {
+    text-align: center;
+}
+.cpte div {
+    padding: 30px;
+}
+.cpte div:nth-child(3) {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+/*  PORTEFOLIO */
+.prtf {
+    margin-bottom: 20px;
+}
+.prtf div img {
+    width: 280px;
+}
+/* PERSO */
+.flm div:first-child {
+    margin-left: 50px;
+}
+.flm div:first-child p{
+    font-size: .5em;
+    color: gray;
+    width: 80%;
+}
+button{
+    margin-left: 250px;
+    margin-top: 50px;
+    border-radius: 100px !important;
+}
+/* BOULOT*/
+.blt {
+    text-align: center;
+}
+.blt h2 {
+    margin-top: 50px;
+    font-size: 1.8em;
+}
+.blt p {
+    width: 80%;
+    margin: 50 auto;
+}
+/*FOOTER */
+.fmenu {
+    text-align: center;
+}
+.fmenu div ul.nav{
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.fmenu div ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.fmenu div ul li {
+    margin-left: 20px;
+}
+.fmenu div p {
+    font-size: 1em;
+    color: gray;
+}

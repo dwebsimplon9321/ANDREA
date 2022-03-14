@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>Je suis partie chercher des clopes</title>
+  </head>
+  <body>
+    <h1>Mon Jeux</h1>
+    
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4">
+                    <h2>Trouver le numéro gagnant</h2>
+                    <p class="text-sm-start fs-6">
+                        Vous devez deviner le nombre tiré au sort entre 1 et 150.
+                    </p>
+                    <p class="text-sm-start fs-6">
+                        Vous avez jusqu'à <span class="essais"></span> essaie pour trouver le bon résultat.
+                    </p>
+                    <p class="text-sm-start fs-6">
+                        Des indices vous seront donnée.
+                    </p>
+                    <div class="row g-3 align-items-center">
+                        <div class="col-auto">
+                            <label for="reponse" class="col-form-label">
+                                Proposition
+                            </label>
+                        </div>
+                        <div class="col-auto">
+                            <input type="text" name="" id="reponse" class="form-control">
+                        </div>
+                        <div class="col-auto">
+                            <button class="btn btn-success">
+                                REPONSE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="indice">
+                        Indices.
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="reponse">
+                        Réponse.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="/js/jeux.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
