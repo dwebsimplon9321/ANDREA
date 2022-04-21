@@ -1,0 +1,185 @@
+body {
+    width: 1024px;
+    margin: auto;
+    border: 1px solid grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    width: 1024px;
+}
+
+header div {
+    display: flex;
+    padding-top: 10px;
+}
+
+header div div {
+    margin-left: 30px;
+    width: 512px;
+}
+
+header div .divR p {
+    margin-left: 149.6px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+/* Menu */
+
+div .menu {
+    width: 1024px;
+    height: 100px;
+    background-color: white;
+}
+
+div.menu ul {
+    display: flex;
+}
+
+div.menu ul li {
+    width: 115px;
+    height: auto;
+    text-align: center;
+    background-color: #2d7ec0;
+    color: white;
+}
+
+div.menu ul li:first-child {
+    width: 195px;
+    background-color: white;
+}
+
+div.menu ul li:nth-child(6) {
+    width: 140px;
+    line-height: 7;
+}
+
+div.menu ul li:first-child:hover {
+    background-color: white;
+}
+
+div.menu ul li a {
+    text-decoration: none;
+}
+
+div.menu ul li:first-child a img {
+    height: 100px;
+    margin-top: -10px;
+}
+
+div.menu ul li svg {
+    width: 130px;
+    height: 50px;
+}
+
+div.menu ul li:hover {
+    background-color: cadetblue;
+    color: black;
+}
+
+div.menu ul li:hover a {
+    color: black;
+}
+
+/* MAIN */
+#main {
+    width: 1024px;
+}
+
+#main div.enteteM {
+    display: flex;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+
+#main div.enteteM div.gauche {
+    width: 660px;
+    background-color: rgb(240, 240, 240);
+}
+
+#main div.enteteM div.droit {
+    width: 364px;
+}
+
+#main div.enteteM h1 {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 2;
+    margin-left: 20px;
+}
+
+#main div.enteteM div.droit p {
+    font-size: 12px;
+    padding: 5px;
+}
+
+#main div.enteteM div.droit p span b {
+    font-weight: bold;
+}
+
+#main div.enteteM div.droit p span {
+    font-size: 10px;
+}
+
+#main div.enteteM div.droit ul li {
+    display: inline-block
+}
+
+#main div.enteteM div.droit ul li.pmain {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+}
+
+#main div.enteteM div.droit ul li.barre {
+    background-color: black;
+}
+
+/* Table */
+
+div.bktable {
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+}
+
+div.bktable div {
+    width: 301px;
+}
+
+div.bktable div .table{
+    font-size: 12px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    margin-bottom: 20px;
+}
+div.bktable div .table tr td  {
+    padding: 5px;
+}
+
+div.bktable div table.table tr th span {
+    color: #f17d2a;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+div.bktable div .table tr th {
+    background-color: #2d7ec0 ;
+    color: white;
+}
+
+div .bktable div .table tr td.bkp {
+    background-color: #92c044;
+    color:white;
+    text-align: center;
+} 
+
+div.bktable div:nth-child(2){
+    margin-left: 60px;
+    margin-right: 60px;
+}

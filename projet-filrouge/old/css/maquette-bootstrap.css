@@ -1,0 +1,5 @@
+
+.table-primary, .table-primary>td, .table-primary>th {
+  background-color: #2d7ec0 !important;
+  color: white;
+}

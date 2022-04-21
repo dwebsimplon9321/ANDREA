@@ -1,0 +1,65 @@
+Page d accueil 
+Présentation
+	Historique
+	Statut juridique
+	Convention constitutive
+	Organigramme
+Pédagogie
+	Projet pédagogique
+	Moyens pédagogiques
+Offre de formation
+	Formation préparatoires (DOM)
+		Filière aide-soignant
+		Filière infirmiere
+		Filière travail social
+		Filière sécurité
+	Prépa apprentissage métiers du travail social
+	Formations diplômantes - Métiers du social
+		DEAES Accompagnant éducatif et social
+		DEME Moniteur-éducateur
+		TADVF Assistant de vie aux familles
+	Formations diplômantes - Métiers de la sécurité 
+		TA2SP Agent de sûreté et de sécurité privée
+	Formations diplômantes - Métiers du numérique
+		DWWM Développeur web et web mobile
+		TIDW Technicien d intégration web
+	Formation 
+		Sauveteurs Secouristes du Travail (SST)
+		Assistant de soins en gérontologie
+		Modules professionnalisants
+	Initiation informatique
+	VAE
+Pré-inscription
+	Calendrier
+	Formation préparatoires
+	Prépa apprentissage métiers du travail social
+	Métiers du social
+		DEAES Accompagnant éducatif et social
+		DEME Moniteur-éducateur
+		TADVF Assistant de vie aux familles
+	Métiers de la securité
+		TA2SP Agent de sûreté et de sécurité privée
+	Métiers du numérique
+		DWWM développeur web et web mobile
+		TIDW Technicien d intégration web
+	VAE
+	Certification Pix
+Résultats
+	Formations préparatoires
+	Prépa apprentissage métiers du travail social
+	Métiers du social
+		DEAES
+		DEME
+		TADVF
+	Métiers de la securité
+		TA2SP
+	Métier du numérique
+		TIDW
+Vie pratique
+	Internat
+	Restauration
+Contact
+	Vos contacts à l IFCASS
+	Partenaires
+	Demande de renseignements
+	Annuaire des anciens stagiaires

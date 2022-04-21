@@ -1,0 +1,15 @@
+* 
+
+.board-white {
+    background-color: gainsboro;
+    /* opacity:0.95; */
+ 
+}
+
+.background {
+    background-image: url("/image/mer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

@@ -1,0 +1,23 @@
+.text-orange {
+	color: #fd7e14;
+}
+.text-yellow{
+	color: #ffc107;
+}
+
+.text-blue {
+	color: #0d6efd;;
+}
+
+.text-green {
+	color: #20c997;
+}
+.price-font {
+	font-size: larger;
+	font-family: 'Courier New', Courier, monospace;
+}
+.nb_upgrade{
+
+	font-size: larger;
+	font-weight: bold;
+}

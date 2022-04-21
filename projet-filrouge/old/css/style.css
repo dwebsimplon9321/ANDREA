@@ -1,0 +1,38 @@
+body {
+    width: 1024px;
+    margin: auto;
+    border: 1px solid grey;
+}
+header div:first-child {
+    margin-left: 5px;
+    margin-bottom: 15px;
+    flex: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header div div:first-child{
+    width: 512;
+    float: left;
+}
+header div div:last-child{
+    float: right;
+    font-size: small;
+    width: 270px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+div div div table {
+    float: left;
+    width: 300px;
+    height: 25px;
+    max-height: 150px;
+    background-color: gray;
+    border:#000000 1px solid;
+}
+div div div table tr td{
+    border:#303030 1px solid;
+}
+div .bktable {
+    display: flex;
+}

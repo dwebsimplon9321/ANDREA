@@ -1,0 +1,24 @@
+* {
+    margin : 0px;
+    padding: 0px;
+}
+body {
+    height: 1220px;
+}
+.img {
+    background-image: url("/image/Rectangle1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img {
+    background-image: url("image/logo.png");
+    max-width : 100%;
+    heigth: auto;
+    display: block;    
+}
+.col-2 {
+    flex: auto;
+    width: 16.66666667%;
+}
+

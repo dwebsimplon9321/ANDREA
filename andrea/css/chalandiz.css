@@ -1,0 +1,25 @@
+/* */
+
+
+
+
+
+/* page */
+div.gauche {
+    background-color: #4cbeae;
+}
+div.gauche.img{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    display: block;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    margin-left: 25%;
+    border-radius: 50%;
+}
+div.reponse {
+    height: 350px;
+    width: 450px;
+    border: 2px solid black;
+}

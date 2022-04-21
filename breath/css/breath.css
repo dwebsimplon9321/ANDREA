@@ -1,0 +1,13 @@
+.background {
+    width: 90px;
+    height: 460px;
+    background-color: cornflowerblue;
+    border-radius: 20%  20%;
+}
+
+.circle {
+    color: tan;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
